@@ -2,4 +2,4 @@
 
 # Ibrahim Sarmini
 
-![](/bracha.jpeg?raw=true)
+![](barcha.jpeg?raw=true)
