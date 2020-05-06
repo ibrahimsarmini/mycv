@@ -2,4 +2,4 @@
 
 # Ibrahim Sarmini
 
-!(./bracha.jpeg)
+![](./bracha.jpeg)
