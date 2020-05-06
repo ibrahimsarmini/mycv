@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>You are Welcome</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body> 
+
+<!-- Navbar -->
+
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://127.0.0.1:5500/index.html">ENGLISH</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://127.0.0.1:5500/arabic.html">ARABIC عربي</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://127.0.0.1:5500/persian.html">PERSIAN فارسي</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://127.0.0.1:5500/germany.html">DEUTCH</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64" style="color: black;";" > 
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-orange" style="text-shadow:1px 1px 0 #444">
+        <b>You are Welcome</b></h1>
+      <p><p><h3><b>
+        Hello,<br>
+         are you new in Germany ???<br> Do you want to start a new Life in Germany but<br> it is a little bit hard !!!!<br>
+         You don't know what to do!!! Where to go!!!!!<br>
+         You can't speak Germany!!!!<br>
+         Everything is O.k .<br>
+         Just contact us and we will help you.</b><br></h3>
+       </p>.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class=" w3-center"><img src="p3.jpg" width="100%"></p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">About us</h1>
+      <p><h3><b>We are people who want to help others to fill in official papers and
+         translation and to help to find a suitable home or register in schools and kindergartens and 
+         everything we can do to start a new, good life for you.<br></h3></b>
+      
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="#"><img src="p2.jpeg" style="width: 100%"></p>
+      <p class="#"><img src="p4.jpeg"style="width: 100%"></p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64" style="color: rgb(10, 49, 122)">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Contact us</h1>
+      <p><b><h3>E-mail : you.are.welcome@gmail.de<br>
+        
+        Facebook account : you.are.welcome@facebook.de<br> 
+        Mobile phone : 00491629616260<br>
+        Whats up : 00491629616260
+      </p></h3></b>
+    </div>
+  
+  </div>
+
+  <!-- Pagination -->
+ 
+
+  <footer id="myFooter">
+
+      <h4></h4>
+    </div>
+
+
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button 
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
